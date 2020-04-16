@@ -1,7 +1,5 @@
 # HANDLES ALL ENCRYPTION AND DECRYPTION #
 
-# { the dreamer's hotel } #
-
 def new_key():
     from Crypto.Random import get_random_bytes
     key = get_random_bytes(16)
