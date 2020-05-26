@@ -1,0 +1,7 @@
+v0.1
+ - Normal release
+
+v0.2
+ - Socket Timeout fixed
+ - Modulated Code, changed patch file structure to
+   accomodate this
