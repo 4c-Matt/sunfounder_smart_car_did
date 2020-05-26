@@ -5,6 +5,3 @@ v0.2
  - Socket Timeout fixed
  - Modulated Code, changed patch file structure to
    accomodate this
-
-v0.3
- - Added socket timeouts to tcp_server
