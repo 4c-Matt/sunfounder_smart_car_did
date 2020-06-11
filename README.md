@@ -38,7 +38,7 @@ Tested with Lighttpd version
 - Start lighttpd with patches configuration file "sudo lighttpd -f lighttpd.conf"
 - Block network access to MJPG-Streamer's default HTTP port (8080) by running the commands:
       - "iptables -A INPUT -p tcp -s localhost --dport 8080 -j ACCEPT"
-      - "iptables -A INPUT -p tcp --dport 8080 -j DROP"
+      - and "iptables -A INPUT -p tcp --dport 8080 -j DROP"
 - Navigate the client to the video stream via Microsoft Edge pointed at the url:
       - "https//(IP ADDRESS OF SERVER):4433"
 - Accept the certificate warning if prompted
