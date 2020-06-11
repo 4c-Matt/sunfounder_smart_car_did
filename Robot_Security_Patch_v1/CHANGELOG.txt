@@ -1,0 +1,28 @@
+v0.1
+ - Normal release
+
+v0.2
+ - Socket Timeout fixed
+ - Modulated Code, changed patch file structure to
+   accomodate this
+
+v0.3
+ - Added socket timeouts to tcp_server
+
+v0.4
+ - Added the authentication feature
+ - Enabled the reuse of sockets therefore reducing the amount
+   of sockets needed to be oppened during operation of the
+   program
+
+v0.5
+ - Segmented session key exchnage function into seperate module
+
+v0.6
+ - Commented some code ready for initial public release
+ - Fixed some logic errors in auth.py
+
+###
+v1.0 - Project release!
+ - Encorporated MJPG-Streamer patch
+ - Added and updated readme files to aid installation	 
