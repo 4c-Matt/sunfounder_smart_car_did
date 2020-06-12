@@ -2,3 +2,6 @@ This patch relies on the following repository of MJPG-Streamer
 compiled and installed in order to function:
 
 "https://github.com/jacksonliam/mjpg-streamer.git"
+
+The sh file should be updated wit a -c flag "username:password"
+in order to password protect the stream.
